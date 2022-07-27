@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Hack">
+      <UniqueIdentifier>{5ccbaaf5-7b44-4a5b-8ed3-2469ee0f16d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\Engine">
+      <UniqueIdentifier>{5c64d854-803f-44ca-982f-71b109f91d43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\Engine\GlobalVariables">
+      <UniqueIdentifier>{6c85ca7c-ce39-4db2-8dc5-d36713a559a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\Engine\Overlay">
+      <UniqueIdentifier>{9514ecb8-e2e9-4ea8-8cc4-16c544e1d00f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\Engine\DirectX">
+      <UniqueIdentifier>{c18094d9-cff4-46f0-a815-1d5526e5b26b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\ESP">
+      <UniqueIdentifier>{0a9aebfe-4399-4516-8e77-07813a72f08d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\MemHacks">
+      <UniqueIdentifier>{5f8b1539-81e7-4f57-8aa6-5d4ec3517436}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GlobalVariables.h">
+      <Filter>Hack\Engine\GlobalVariables</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay.h">
+      <Filter>Hack\Engine\Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Hack\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX.h">
+      <Filter>Hack\Engine\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="ESP.h">
+      <Filter>Hack\ESP</Filter>
+    </ClInclude>
+    <ClInclude Include="MemHacks.h">
+      <Filter>Hack\MemHacks</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerEntity.h">
+      <Filter>Hack</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalPlayer.h">
+      <Filter>Hack</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GlobalVariables.cpp">
+      <Filter>Hack\Engine\GlobalVariables</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Hack\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay.cpp">
+      <Filter>Hack\Engine\Overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Hack\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX.cpp">
+      <Filter>Hack\Engine\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="ESP.cpp">
+      <Filter>Hack\ESP</Filter>
+    </ClCompile>
+    <ClCompile Include="MemHacks.cpp">
+      <Filter>Hack\MemHacks</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerEntity.cpp">
+      <Filter>Hack</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalPlayer.cpp">
+      <Filter>Hack</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
